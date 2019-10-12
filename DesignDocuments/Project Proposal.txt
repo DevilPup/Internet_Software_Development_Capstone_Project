@@ -1,0 +1,28 @@
+Rodney Camp
+Michael Maki
+Joseph Pegram
+
+
+CITC-2375
+
+Project Proposal
+
+Abstract: Our project is to build a fully functional website for 8 Lives On, a local charity that provides scholarships youth athletes. 8 Lives On currently has a website that is in desperate need of an update. We will build a brand-new site for them from the ground up. 
+Purpose: 8 Lives On is a local charity that provides scholarships to youth. The purpose of the website is to collect donations, sign up volunteers, receive applications for scholarships, sign up volunteers, and communicate events. Our project will facilitate there needs better than their current solution while allowing for scaling up. Overall the goal is to create greater exposure and encourage more support.
+Technical Specifications: 8 Lives On currently has a website and therefore have a hosting solution that will be utilized for deploying the completed project. Our team will use GitHub to collaborate. We will use the following technologies to accomplish our goal.
+Content: Content will be handled by HTML.
+Style: The styling will be implemented with CSS.
+Function: Function will be implemented with JavaScript and Google Firebase. We will also incorporate the 8 Lives On Facebook.
+Requirements: This application will be able to do the following.
+•	Allow 8 Lives On staff to log in and authenticate their credentials
+•	Have pages that highlight scholarship recipients
+•	Have pages for 8 Lives On staff bios
+•	Collect data from various HTML forms to a database and make the data useful to 8 Lives On
+•	Have forms that allow visitors to the site to sign up to volunteer, complete scholarship applications, make donations, and fill out a contact form
+•	Use data collected to create mailing lists
+•	Accept donations through the site
+•	Create a tiered donation system 
+•	Integrate the 8 Lives On Facebook page 
+•	Have a calendar that shows upcoming events
+•	Distribute a news letter from the data collected
+Project Schedule:
