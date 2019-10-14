@@ -1,0 +1,95 @@
+
+/* Variables */
+:root {
+    --primaryColor: #aa1282;
+    --secondaryColor: #fcfc05;
+}
+/* Main Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    background: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+.button:hover {
+    background: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+/* Navigation Styles */
+#brand-donate .brand a{
+    color: var(--primaryColor);
+}
+
+#brand-donate .brand a:hover{
+    color: var(--secondaryColor);
+}
+
+.brand {
+    padding: .5rem;
+    
+}
+
+.donate {
+    padding: .5rem;
+}
+
+
+.navbar {
+    background: #fff !important;
+    /* border: var(--primaryColor) 3px solid; */
+    
+    
+
+}
+
+.navbar a {
+    color: var(--primaryColor) !important;
+    
+}
+
+.navbar a:hover {
+    color: var(--secondaryColor) !important;
+    border: var(--secondaryColor) 1px solid;
+    
+}
+
+.nav-item {
+    padding: 0 2rem 0 2rem;
+}
+
+
+
+
+
+/* Footer Styles */
+footer .container-fluid{
+    background: #fff;
+    /* background-image: url(../images/purpleback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: var(--primaryColor);
+    height: 100%;
+    border: var(--primaryColor) 1px solid;
+}
+
+footer li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+footer a {
+    color: var(--primaryColor);
+}
+
+footer a:hover {
+    color: var(--secondaryColor);
+   
+}
