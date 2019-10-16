@@ -17,12 +17,11 @@
 /* Main Content Styles */
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    border-bottom: #aa1282 5px solid;
-    border-left: #aa1282 5px solid;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
     height: 100%;
+    border: none;
     
     
 
