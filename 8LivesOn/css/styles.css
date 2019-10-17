@@ -70,7 +70,16 @@ body {
     padding: 0 2rem 0 2rem;
 }
 
-
+.container {
+	padding: .5rem;
+	text-align: center;
+}
+.container a:hover {
+	border: var(--secondaryColor) 2px solid;
+}
+.container img {
+	width: 100%;
+}
 
 
 
