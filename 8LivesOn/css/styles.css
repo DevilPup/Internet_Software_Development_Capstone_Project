@@ -26,6 +26,8 @@ body {
 
 #brand-donate {
     height: 6rem;
+    margin: 10px;
+    padding: 10px;
 }
 
 #brand-donate .brand a{
