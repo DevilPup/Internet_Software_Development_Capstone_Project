@@ -2,3 +2,7 @@
 #events {
     padding: 10px;
 }
+
+#events iframe {
+    width: 100%;
+}
