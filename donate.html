@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/donate.css">
     <title>8LivesOn</title>
+	<style>
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+		}
+
+		input[type=number] {
+		-moz-appearance:textfield; /* Firefox */
+		}
+	</style>
 </head>
 
 <body>
@@ -55,12 +67,88 @@
         <div class="container">
             <!-- <h1 class="display-4"><span class="head1">8</span><span class="head2">Lives</span><span
                     class="head1">On</span></h1> -->
-
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Why Should You Donate?</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Who Will Benefit From My Donation?</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Make A Commitment</a>
+						</h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-sm-4 form-group">
+										<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+									</div>
+									<div class="col-sm-2 form-group">
+										<input class="form-control" id="middle" name="middle" placeholder="Middle" type="text" required>
+									</div>
+									<div class="col-sm-4 form-group">
+										<input class="form-control" id="last" name="last" placeholder="Last" type="text" required>
+									</div>
+									<br>
+									<div class="col-sm-6 form-group">
+										<input class="form-control" id="creditNumber" name="creditNumber" placeholder="Card Number" type="number" maxlength="19" required>
+									</div>
+									<div class="col-sm-4 form-group">
+										<input class="form-control" id="cvv" name="cvv" placeholder="CVV" type="number" max="999" required>
+									</div>
+									<br>
+									<div class="col-sm-6 form-group">
+										<input class="form-control" id="addressOne" name="addressOne" placeholder="Address 1" type="text" required>
+									</div>
+									<div class="col-sm-6 form-group">
+										<input class="form-control" id="addressTwo" name="addressTwo" placeholder="Address 2" type="text">
+									</div>
+									<br>
+									<div class="col-sm-6 form-group">
+										<input class="form-control" id="city" name="city" placeholder="City" type="text" required>
+									</div>
+									<div class="col-sm-2 form-group">
+										<input class="form-control" id="state" name="state" placeholder="State" type="text" required>
+									</div>
+									<div class="col-sm-4 form-group">
+										<input class="form-control" id="zip" name="zip" placeholder="Zip Code" type="number" maxlength="5" required>
+									</div>
+									<div class="col-md-12 form-group">
+									<button class="btn btn-success" type="submit">Submit</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 
     <!-- Main Content -->
-
+	
     <!-- Footer -->
     <footer id="footer">
         <div class="container-fluid">
