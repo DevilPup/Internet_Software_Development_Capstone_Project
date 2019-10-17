@@ -1,1 +1,9 @@
 /*  */
+
+#about img {
+    width: 100%;
+}
+
+#about {
+    padding: 1rem;
+}
