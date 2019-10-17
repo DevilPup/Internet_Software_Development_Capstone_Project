@@ -50,17 +50,61 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <!-- <h1 class="display-4"><span class="head1">8</span><span class="head2">Lives</span><span
-                    class="head1">On</span></h1> -->
-
-        </div>
-    </div>
-
     <!-- Main Content -->
-    
+	<div class="container" id="volunteer">
+		<h1>Volunteer Form</h1>
+		<br>
+		<br>
+			<div class="panel-body">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+						<div class="col-sm-2 form-group">
+							<input class="form-control" id="middle" name="middle" placeholder="Middle" type="text" required>
+						</div>
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="last" name="last" placeholder="Last" type="text" required>
+						</div>
+						<br>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="addressOne" name="addressOne" placeholder="Address 1" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="addressTwo" name="addressTwo" placeholder="Address 2" type="text">
+						</div>
+						<br>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="city" name="city" placeholder="City" type="text" required>
+						</div>
+						<div class="col-sm-2 form-group">
+							<input class="form-control" id="state" name="state" placeholder="State" type="text" required>
+						</div>
+						<div class="col-sm-4 form-group">
+							<input class="form-control" id="zip" name="zip" placeholder="Zip Code" type="number" maxlength="5" required>
+						</div>
+						<div class="container checkContainer">
+							<div class="checkbox">
+							  <label><input id="event1" type="checkbox" value="">Event 1</label>
+							</div>
+							<div class="checkbox">
+							  <label><input id="event2" type="checkbox" value="">Event 2</label>
+							</div>
+							<div class="checkbox">
+							  <label><input id="event3" type="checkbox" value="">Event 3</label>
+							</div>
+							<br>
+							<br>
+							<div class="col-md-12 form-group">
+								<button class="btn btn-success" type="submit">Submit</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
     <!-- Footer -->
     <footer id="footer">
         <div class="container-fluid">
