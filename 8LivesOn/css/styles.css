@@ -5,6 +5,7 @@
     --secondaryColor: #fcfc05;
 }
 /* Main Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +23,11 @@ body {
 }
 
 /* Navigation Styles */
+
+#brand-donate {
+    height: 6rem;
+}
+
 #brand-donate .brand a{
     color: var(--primaryColor);
 }
@@ -32,7 +38,6 @@ body {
 
 .brand {
     padding: .5rem;
-    
 }
 
 .donate {
@@ -42,7 +47,7 @@ body {
 
 .navbar {
     background: #fff !important;
-    /* border: var(--primaryColor) 3px solid; */
+    border: var(--primaryColor) 3px solid; 
     
     
 
@@ -93,3 +98,5 @@ footer a:hover {
     color: var(--secondaryColor);
    
 }
+
+
