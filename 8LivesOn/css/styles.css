@@ -62,7 +62,7 @@ body {
 
 .navbar a:hover {
     color: var(--secondaryColor) !important;
-    border: var(--secondaryColor) 1px solid;
+    
     
 }
 
