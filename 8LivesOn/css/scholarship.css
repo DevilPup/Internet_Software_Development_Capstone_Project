@@ -1,4 +1,10 @@
 /*  */
+#scholarship {
+	color: var(--primaryColor);
+}
+
+
+
 .combo {
 	display: inline;
 	margin: 20px;
