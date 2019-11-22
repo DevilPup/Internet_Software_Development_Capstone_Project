@@ -2,7 +2,7 @@
 /* Variables */
 :root {
     --primaryColor: #aa1282;
-    --secondaryColor: #fcfc05;
+    --secondaryColor: #d6b306;
 }
 /* Main Styles */
 
@@ -62,7 +62,7 @@ body {
 
 .navbar a:hover {
     color: var(--secondaryColor) !important;
-    border: var(--secondaryColor) 1px solid;
+    
     
 }
 

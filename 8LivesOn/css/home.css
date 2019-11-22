@@ -16,16 +16,20 @@
 }
 /* Main Content Styles */
 
+
+
 .card {
     margin: 0 auto; 
     float: none; 
     margin-bottom: 10px; 
     height: 100%;
     border: none;
-    
-    
 
 }
 
+.card-img-top {
+    height: 192px;
+    width: 288px;
+}
 
 
