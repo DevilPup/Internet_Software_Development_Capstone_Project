@@ -4,9 +4,20 @@
 	padding: .5rem;
 	text-align: center;
 }
-.container a:hover {
+/* .container a:hover {
 	border: var(--secondaryColor) 2px solid;
-}
-.container img {
+} */
+/* .container img {
 	width: 100%;
+} */
+
+#Recipients-Info{
+	color: var(--primaryColor);
+}
+
+/* Images */
+
+.img-responsive {
+	height: 300px !important;
+	width: 300px !important;
 }
