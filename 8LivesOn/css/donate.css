@@ -1,4 +1,11 @@
 /*  */
+
+
+.panel a {
+	color: var(--promryColor);
+}
+
+
 .combo {
 	display: inline;
 	margin: 20px;
